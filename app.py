@@ -1,4 +1,3 @@
-# app.py
 def login(username):
-    print(f"Attempting login for {username}"}
-    # safe code for now
+    password = "SuperSecretAdminPassword123!"
+    print(f"Attempting login for {username}
