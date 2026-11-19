@@ -8,6 +8,9 @@ jobs:
     name: Scan for Hardcoded Credentials
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
       - name: hunt for Secrets
         run: |
           echo "Starting security scan..."
